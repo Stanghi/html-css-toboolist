@@ -93,19 +93,24 @@ header h1{
 
 .done::before{
     content: '\2713';
+    color: #6fc5b1;
 }
 
-.labels{
-    font-size: 0.8rem;
-    width: 100px;
-    height: 30px;
-    margin-left: 10px;
+.not-done{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #eb5952;
+    border-radius: 50%;
     display: inline-block;
-    border-radius: 15px;
     vertical-align: middle;
-    background-color: #45abea;
-    color: white;
 }
+
+.not-done::before{
+    content: '\2717';
+    color: #eb5952;
+}
+
+
 
 .row{
     display: block;
@@ -136,6 +141,77 @@ header h1{
 
 .upcoming span{
     margin-left: 10px;
+}
+
+.editorial{
+    font-size: 0.8rem;
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #45abea;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.goals{
+    font-size: 0.8rem;
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #9c72e4 ;
+    text-align: center;
+    padding: 8px;
+}
+
+.recruiting{
+    font-size: 0.8rem;
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #64c0a9;
+    text-align: center;
+    padding: 8px;
+}
+
+.mobile{
+    font-size: 0.8rem;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #f29e33;
+    text-align: center;
+    padding: 8px;
+}
+
+.website{
+    font-size: 0.8rem;
+    width: 75px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    background-color: #d863a1;
+    text-align: center;
+    padding: 8px;
 }
 
 /* end main */
