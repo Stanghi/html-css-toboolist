@@ -8,6 +8,19 @@ body{
     background-color: #f6f8f9;
 }
 
+.container{
+    width: 50%;
+    margin: 60px auto;
+    height: 750px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.container-due{
+    width: 90%;
+    height: 600px;
+    margin: 35px auto;
+}
 
 /* header */
 header{
@@ -30,13 +43,6 @@ header h1{
 /* end header */
 
 /* main */
-.container{
-    width: 50%;
-    margin: 60px auto;
-    height: 750px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
 
 .add-buttom{
     width: 100%;
@@ -71,4 +77,65 @@ header h1{
     padding: 8px;
     background-color: #ffffff;
 }
+
+.triangle::before{
+    content: '\25BC';
+}
+
+.done{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #6fc5b1;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.done::before{
+    content: '\2713';
+}
+
+.labels{
+    font-size: 0.8rem;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    vertical-align: middle;
+    background-color: #45abea;
+    color: white;
+}
+
+.row{
+    display: block;
+    margin-top: 10px
+}
+
+.new-task{
+    width: 100%;
+}
+
+.new-task span{
+    margin-left: 10px;
+}
+
+.today{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.today span{
+    margin-left: 10px;
+}
+
+.upcoming{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.upcoming span{
+    margin-left: 10px;
+}
+
 /* end main */
