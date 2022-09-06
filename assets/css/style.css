@@ -85,23 +85,24 @@ header h1{
 
 /* done e not-done */
 .done{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border: 2px solid #6fc5b1;
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .done::before{
     content: '\2713';
     color: #6fc5b1;
+    line-height: 100%;
+    padding-left: 5px;
 }
 
 .not-done{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border: 2px solid #eb5952;
     border-radius: 50%;
     display: inline-block;
@@ -111,6 +112,8 @@ header h1{
 .not-done::before{
     content: '\2717';
     color: #eb5952;
+    line-height: 100%;
+    padding-left: 5px;
 }
 /* end done e not-done */
 
@@ -125,7 +128,7 @@ header h1{
 }
 
 .new-task span{
-    margin-left: 10px;
+    margin5: 5px;
 }
 
 .today{
@@ -134,7 +137,7 @@ header h1{
 }
 
 .today span{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .upcoming{
@@ -143,7 +146,7 @@ header h1{
 }
 
 .upcoming span{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /* labels */
