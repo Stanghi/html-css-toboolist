@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff; 
+
+    border-bottom: 1px solid black; /* CANCELLARE */
+}
+
+header img{
+    vertical-align: middle;
+    height: 80px;
+    margin-left: 25px;
+    padding: 10px 10px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 25px;
+}
+/* end header */
