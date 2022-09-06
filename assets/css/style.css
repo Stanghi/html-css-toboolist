@@ -6,6 +6,8 @@
 
 body{
     background-color: #f6f8f9;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -38,12 +40,11 @@ header img{
 
 header h1{
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
 }
 /* end header */
 
 /* main */
-
 .add-buttom{
     width: 100%;
     height: 80px;
@@ -82,6 +83,7 @@ header h1{
     content: '\25BC';
 }
 
+/* done e not-done */
 .done{
     width: 20px;
     height: 20px;
@@ -89,6 +91,7 @@ header h1{
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
+
 }
 
 .done::before{
@@ -109,12 +112,12 @@ header h1{
     content: '\2717';
     color: #eb5952;
 }
-
+/* end done e not-done */
 
 
 .row{
     display: block;
-    margin-top: 10px
+    margin-top: 15px
 }
 
 .new-task{
@@ -143,11 +146,12 @@ header h1{
     margin-left: 10px;
 }
 
+/* labels */
 .editorial{
     font-size: 0.8rem;
     width: 80px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -157,12 +161,11 @@ header h1{
     padding: 8px;
 }
 
-
 .goals{
     font-size: 0.8rem;
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -176,7 +179,7 @@ header h1{
     font-size: 0.8rem;
     width: 80px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -190,7 +193,7 @@ header h1{
     font-size: 0.8rem;
     width: 60px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -204,7 +207,7 @@ header h1{
     font-size: 0.8rem;
     width: 75px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 5px;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -213,5 +216,7 @@ header h1{
     text-align: center;
     padding: 8px;
 }
+/* end labels */
+
 
 /* end main */
